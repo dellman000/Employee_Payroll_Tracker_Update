@@ -3,14 +3,14 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
  
 
 
-
+let employeesArray=[];// where we will store our workers as objects
 
 
 // Collect employee data
 const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
 
-  let employeesArray=[];// where we will store our workers as objects
+
   // the next three varables will be used by the collectEmplyees as a temproary storage to pipe our data into the next employee object
   let firstNamecard
   let LastNameCard;
